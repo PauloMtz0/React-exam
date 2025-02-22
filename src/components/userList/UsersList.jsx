@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import useUsers from '../hooks/useUsers'; 
+import useUsers from '../../hooks/useUsers';
 
 const UsersList = () => {
     const { users } = useUsers(); // Obtiene los usuarios del hook
